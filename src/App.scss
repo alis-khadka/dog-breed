@@ -33,6 +33,12 @@
   text-transform: capitalize;
 }
 
+.dog-icon {
+  height: 30px;
+  width: 30px;
+  color: $theme-secondary-color
+}
+
 @media (max-width: 767px) {
   .ant-layout-header {
     .ant-typography {

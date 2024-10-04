@@ -5,6 +5,7 @@ import { FilterOutlined } from '@ant-design/icons';
 import { useMediaQuery } from 'react-responsive';
 import BreedSelector from './components/BreedSelector';
 import ImageGallery from './components/ImageGallery';
+import { ReactComponent as DogIcon } from './dog-paw-svgrepo-com.svg'
 
 import './App.scss'
 
@@ -55,8 +56,9 @@ function App() {
   return (
     <Layout>
       <Header className='d-flex align-items-center justify-content-md-center justify-content-between position-fixed top-0 w-100 py-5'>
-        <Title className='mb-0 fw-bold' level={2}>
-          Dog Image Gallery
+        <Title className='mb-0 fw-bold d-flex flex-row align-items-center jsutify-content-between' level={2}>
+          <DogIcon className='dog-icon me-3' />
+          <span className='d-none d-md-inline'>Dog Image Gallery</span>
         </Title>
         {isMobile && (
           <Button
