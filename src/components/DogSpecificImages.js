@@ -42,9 +42,8 @@ const DogSpecificImages = ({ imagesMap }) => {
                     }
                   >
                     <Meta
-                      title={dogDetails.breed}
-                      description={`Image ${index + 1}`}
-                    />
+                      title={<a className='fs-6' href={image} target='_blank' rel="noreferrer">Main Image</a>}
+                      />
                   </Card>
                 </Col>
               ))}

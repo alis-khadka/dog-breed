@@ -47,6 +47,8 @@ function App() {
 
           setDogImages(dogImages);
         });
+    } else {
+      setDogImages([]);
     }
   }, [selectedBreeds]);
 
