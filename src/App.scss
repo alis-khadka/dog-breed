@@ -22,9 +22,10 @@
 
 .ant-layout-content {
   padding: 50px;
+  margin-top: 96px;
   padding-left: 350px;
   min-width: calc(100vw - 300px);
-  min-height: calc(100vh - 100px - 65px);
+  min-height: calc(100vh - 96px);
 }
 
 .ant-collapse-header-text {

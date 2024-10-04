@@ -52,7 +52,7 @@ function App() {
 
   return (
     <Layout>
-      <Header className='d-flex align-items-center justify-content-md-center justify-content-between position-sticky top-0 w-100 py-5'>
+      <Header className='d-flex align-items-center justify-content-md-center justify-content-between position-fixed top-0 w-100 py-5'>
         <Title className='mb-0 fw-bold' level={2}>
           Dog Image Gallery
         </Title>
