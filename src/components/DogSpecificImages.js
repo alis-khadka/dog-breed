@@ -42,6 +42,7 @@ const DogSpecificImages = ({ imagesMap }) => {
                     }
                   >
                     <Meta
+                      className='text-center'
                       title={<a className='fs-6' href={image} target='_blank' rel="noreferrer">Main Image</a>}
                       />
                   </Card>
